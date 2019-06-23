@@ -7,7 +7,7 @@ console.log(searchForm);
 function apiSearch(event){
     event.preventDefault();
     
-    const searchText=document.querySelector('.form-control').value, server='https://api.themoviedb.org/3/search/multi?api_key=dd4c3a8a8e6b554e83d34d9872fb91cc&language=ru&query='+searchText;
+    const searchText=document.querySelector('.form-control').value, server='https://api.themoviedb.org/3/search/multi?api_key=d6d4c3a8a8e6b554e83d34d9872fb91cc&language=ru&query='+searchText;
  requestApi(server);
 }
 
